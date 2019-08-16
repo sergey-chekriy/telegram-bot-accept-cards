@@ -366,7 +366,7 @@ markup = None
 
 
 def main():
-    updater = Updater("770246552:AAEmtj-p9JCPosrRJt5JwMJXWiIp7zY9VYo", persistence=bot_persistence, use_context=True)
+    updater = Updater("xxx", persistence=bot_persistence, use_context=True)
     dp = updater.dispatcher
     j = updater.job_queue
     command_back = MessageHandler(Filters.regex("^{}$".format(em_back+DIALOGS["back"])), back)
